@@ -1,0 +1,61 @@
+body h1{
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+ font-weight: bold;
+  color: rgb(58, 73, 122);
+  background-color: rgb(177, 219, 231);
+}
+
+h2 {
+  color: rgb(57, 7, 81);
+  margin-bottom: 30px;
+  background-color: #ddd0fa;
+  font-family: monospace;
+  font-size: x-large;
+  font-weight: lighter;
+}
+main {
+  background-color: #d7f0fc;
+  color: rgb(3, 66, 61);
+  background-color: #d0dffa;
+  box-shadow: 0 0 10px rgb(13, 6, 88);
+  
+}
+ul {
+  margin: 12px;
+  margin-bottom: 10px;
+  color: #5997a9;
+  background-color: #c8d6fc;
+  list-style: square;
+}
+#sección {
+  margin: 20px;
+  margin-bottom: 10px;
+  color: #175c68;
+  font-family: initial;
+}
+
+#lorem {
+  margin: 20px;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #554280;
+}
+
+.importante {
+  margin: 10px;
+  margin-bottom: 30;
+  color: #042449;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+}
+
+.destacado {
+  margin: 10px;
+  margin-bottom: 19px;
+  color: rgb(19, 66, 132);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small;
+}
