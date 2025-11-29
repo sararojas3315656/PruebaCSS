@@ -1,4 +1,11 @@
-body h1{
+/* Selector 'body'
+   Aplicado a todo lo que está dentro de body, todos los textos heredaran la fuente y color de este. */
+   * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   }
+body h1 {
   text-align: center;
   margin-bottom: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -8,14 +15,19 @@ body h1{
   background-color: rgb(177, 219, 231);
 }
 
-h2 {
+h2 + p {
   color: rgb(57, 7, 81);
   margin-bottom: 30px;
   background-color: #ddd0fa;
   font-family: monospace;
   font-size: x-large;
-  font-weight: lighter;
+  font-weight: bold;
 }
+h2 ~ p {
+  margin-left: 25px;
+}
+/* Selector 'main':
+   Define estilos para la sección principal del documento como el color del texto. Reemplaza el color heredado del body. */
 main {
   background-color: #d7f0fc;
   color: rgb(3, 66, 61);
@@ -30,6 +42,9 @@ ul {
   background-color: #c8d6fc;
   list-style: square;
 }
+section > ul {
+  background-color: #c7bcf8;
+}
 #sección {
   margin: 20px;
   margin-bottom: 10px;
@@ -37,11 +52,20 @@ ul {
   font-family: initial;
 }
 
+/* #Lorem; usado para todos los párrafos que utilizan ID. Se define su color, fuente y margen. */
 #lorem {
   margin: 20px;
   margin-bottom: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #554280;
+}
+
+/* .Lorem2; usado para todos los párrafos que han sido usados con CLASS. Se les ha aplicado color, margen y fuente de letra */
+.Lorem2 {
+  color: rgb(147, 56, 180);
+  background-color: #f7d5ff;
+  margin: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .importante {
